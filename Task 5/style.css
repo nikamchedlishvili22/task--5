@@ -1,0 +1,513 @@
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #282828;
+}
+h1 {
+    text-align: center;
+    font-size: 54px;
+}
+img {
+    width: 240px;
+    height: 240px;
+}
+
+.Image {
+    position: absolute;
+    display: inline;
+    margin: 0 30px;
+}
+.Image2 {
+    display: inline;
+    position: absolute;
+    margin: 0 296px;
+}
+.Image3 {
+    display: inline;
+    position: absolute;
+    margin: 0 590px;
+}
+.Image4 {
+    display: inline;
+    position: absolute;
+    margin: 0 890px;
+}
+.name {
+    position: absolute;
+    margin: 0 1px;
+    font-size: 18px;    
+}
+.job {
+    display: flex;
+    position: absolute;
+    top: 270px;
+    margin: 0 1px;
+    font-size: 14px;
+    color: #3E3E59;
+}
+.discripton {
+    position: absolute;
+    display: flex;
+    top: 290px;
+    margin: 0 1px;
+    font-size: 14px;
+    color: #5F6980;
+    width: 278px;
+    height: 44px;
+    font-family: 'inter';
+}
+@font-face {
+    font-family: 'inter';
+    src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+}
+.name2 {
+    display: flex;
+    margin: 0 1%;
+    position: absolute;
+    width: 278px;
+    height: 30px;
+    font-size: 18px;
+}
+.job2 {
+    position: absolute;
+    display: flex;
+    width: 278px;
+    height: 22px;
+    top: 270px;
+    margin: 0 1%;
+    color: #3E3E59;
+    font-size: 14px;
+}
+.descrip {
+    position: absolute;
+    display: flex;
+    margin: 0 3px;
+    width: 278px;
+    height: 44px;
+    top: 290px;
+    font-size: 14px;
+    color: #5F6980;
+}
+.name3 {
+    position: absolute;
+    display: flex;
+    top: 225px;
+    font-size: 18px;
+
+}
+.job3 {
+    position: absolute;
+    display: flex;
+    top: 255px;
+    font-size: 14px;
+    color: #3E3E59;
+}
+.desc3 {
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    width: 278px;
+    height: 44px;
+    top: 290px;
+    margin: 0 1px;
+    color: #5F6980;
+}
+
+.name4 {
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    top: 227px;
+}
+.job4 {
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    top: 255px;
+    color: #3E3E59;
+}
+.desc4 {
+    position: absolute;
+    display: flex;
+    margin: 0 -1px;
+    font-size: 14px;
+    top: 291px;
+    width: 278px;
+    height: 44px;
+    color: #5F6980;
+}
+.Image5 {
+    position: absolute;
+    top: 700px;
+    margin: 0 30px;
+}
+.Image6 {
+    position: absolute;
+    display: flex;
+    top: 700px;
+    margin: 0 300px;
+}
+.Image7 {
+    position: absolute;
+    display: flex;
+    top: 700px;
+    margin: 0 590px;
+}
+.Image8 {
+    position: absolute;
+    display: flex;
+    top: 700px;
+    margin: 0 900px;
+}
+.Name5 {
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    top: 230px;
+}
+.Job5 {
+    position: absolute;
+    display: flex;
+    top: 270px;
+    margin: 0 -1px;
+    font-size: 14px;
+    color: #3E3E59;
+}
+.desc5 {
+    position: absolute;
+    display: flex;
+    top: 290px;
+    margin: 0 -1px;
+    width: 278px;
+    height: 44px; 
+    font-size: 15px;
+    color: #5F6980;
+}
+.name6 {
+    position: absolute;
+    display: flex;
+    margin: 0 -1px;
+    top: 250px;
+    width: 278px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.job6 {
+    position: absolute;
+    width: 278px;
+    height: 22px;
+    top: 270px;
+    margin: 0 -89px;
+    font-size: 14px;
+    color: #3E3E59;
+}
+.desc6 {
+    position: absolute;
+    width: 278px;
+    height: 44px;
+    top: 290px;
+    margin: 0 -10px;
+    color: #5F6980;
+}
+.fixed {
+    position: absolute;
+    top: 310px;
+    font-size: 14px;
+    margin: 0 3px;
+    color: #5F6980;
+}
+.secondfixed {
+    position: absolute;
+    top: 310px;
+    font-size: 14px;
+    color: #5F6980;
+    margin: 0 5px;
+}
+.thirdfixed {
+    position: absolute;
+    font-size: 14px;
+    top: 310px;
+    color: #5F6980;
+    margin: 0 3px;
+}
+.fourfixed {
+    position: absolute;
+    font-size: 14px;
+    top: 310px;
+    color: #5F6980;
+    margin: 0 1px;
+}
+
+.fivefixed {
+    position: absolute;
+    font-size: 14px;
+    top: 310px;
+    color: #5F6980;
+    margin: 0 1px;
+}
+
+.sixfixed {
+    position: absolute;
+    font-size: 14px;
+    top: 310px;
+    color: #5F6980;
+    margin: 0 1px;
+}
+.sevenfixed {
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+    top: 310px;
+    color: #5F6980;
+    margin: 0 2px;
+}
+.name7 {
+    position: absolute;
+    font-size: 18px;
+    top: 230px;
+}
+.job7 {
+    position: absolute;
+    font-size: 14px;
+    top: 259px;
+    color: #3E3E59;
+}
+.desc7 {
+    display: flex;
+    position: absolute;
+    font: 14px;
+    top: 290px;
+    margin: 0 -1px;
+    width: 278px;
+    height: 44px;
+    color: #5F6980;
+}
+
+.name8 {
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    top: 230px;
+}
+
+.job8 {
+    position: absolute;
+    font-size: 14px;
+    top: 270px;
+    width: 278px;
+    height: 22px;
+    margin: 0 -87px;
+    color: #3E3E59;
+}
+
+.desc8 {
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+    color: #5F6980;
+    width: 278px;
+    height: 44px;
+    top: 279px;
+}
+
+.eightfixed {
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    color: #5F6980;
+    top: 298px;
+    width: 278px;
+    height: 44px;
+}
+
+.facebook5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 340px;
+}
+
+.Instagram5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 340px;
+    margin: 0 40px;
+}
+
+
+.Twitter5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 340px;
+    margin: 0 85px;
+}
+
+.box {
+    position: absolute;
+    width: 1654px;
+    height: 512px;
+    padding: 108px, 184px, 181px, 164px;
+    background-color: #53535354;
+    top: 1100px;
+}
+
+.footerbox {
+    position: absolute;
+    display: flex;
+    top: 150px;
+    width: 100px;
+    height: 64px;
+    margin: 0 100px;
+}
+.footerp {
+    position: absolute;
+    display: flex;
+    width: 306.05px;
+    height: 73px;
+    top: 220px;
+    left: 90px;
+}
+.footerfacebook {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 325px;
+    left: 85px;
+    padding: 2px, 2px, 2.05px, 2px;
+}
+.pfixed {
+    position: absolute;
+    display: flex;
+    top: 275px;
+    left: 90px;
+}
+
+.pfixed2 {
+    position: absolute;
+    display: flex;
+    top: 273px;
+    margin: 0 90px;
+    width: 306.05px;
+    height: 73px;
+}
+
+.footerfacebook2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 325px;
+    left: 139px;
+    padding: 2px, 2px, 2.05px, 2px;
+}
+
+.footerfacebook3 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 325px;
+    left: 190px;
+    padding: 2px, 2px, 2.05px, 2px;
+}
+
+.footerh2 {
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    top: 108px;
+    left: 627px;
+}
+
+.h2fixed {
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    top: 128px;
+    left: 627px;
+    margin: 0 100px;
+}
+
+.home {
+    position: absolute;
+    font-size: 14px;
+    width: 92px;
+    height: 17px;
+    top: 203px;
+    left: 627px;
+}
+
+.about {
+    position: absolute;
+    width: 92px;
+    height: 48px;
+    top: 235px;
+    left: 627px;
+}
+
+.touch {
+    position: absolute;
+    width: 108px;
+    height: 48px;
+    top: 283px;
+    left: 627px;
+}
+
+.services {
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    top: 108px;
+    left: 1023px;
+}
+
+.asset {
+    position: absolute;
+    width: 199px;
+    height: 48px;
+    top: 187px;
+    left: 970px;
+}
+
+.will {
+    position: absolute;
+    width: 199px;
+    height: 48px;
+    top: 235px;
+    left: 970px;
+}
+
+.capsule {
+    position: absolute;
+    width: 199px;
+    height: 48px;
+    top: 283px;
+    left: 970px;
+}
+
+.lang {
+    position: absolute;
+    font-size: 20px;
+    width: 107px;
+    height: 24px;
+    top: 108px;
+    left: 1363px;
+}
+.div {
+    width: Hug (80px);
+    height: Hug (45px);
+    top: 190.45px;
+    left: 1363px;
+    padding: 14px, 16px, 14px, 16px;
+    background-color: #054A68;
+
+}
+.en {
+    position: absolute;
+    width: 48px;
+    height: 17px;
+    font-size: 14px;
+    margin: 0 84%;
+    top: 200px;
+}
